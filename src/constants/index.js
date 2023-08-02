@@ -29,7 +29,7 @@ import {
     uvt,
     twente,
     victory_square, azul2, vrades, datascience,
-} from '../assets';
+} from '../../public/assets';
 
 export const navLinks = [
     {

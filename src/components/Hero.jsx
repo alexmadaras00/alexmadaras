@@ -1,6 +1,6 @@
 import {motion} from 'framer-motion';
 import {styles} from '../styles';
-import {alex, mobileVideo} from '../assets';
+import {alex, mobileVideo} from '../../public/assets';
 import React from 'react';
 
 const Hero = () => {
