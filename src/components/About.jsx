@@ -26,9 +26,9 @@ const ServiceCard = ({ index, title, icon }) => {
   );
 };
 
-const About = () => {
+function About() {
   return (
-    <div id="about" className="-mt-[6rem] bg-#A6B98A" >
+    <div id="about" className="-mt-[6rem]" style={{backgroundColor:'#A6B98A'}}>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>About me</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -37,8 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          22-years old Software Developer, Master student at University of Twente, Netherlands.
-          I develop mobile apps and games. <br/> I love building high quality software that is maintainable.
+          I'm a 24-year-old Computer Science Master's graduate and aspiring Software Engineer with a passionfor building meaningful software, particularly mobile and full-stack web applications that enhancepeople everyday’s life, some of which are showcased in this web portfolio. I'm driven by curiosity and enjoy experimenting with new technologies, often integrating them into both personal and professionalprojects. I thrive in collaborative teams where innovation, learning, and shared motivation are valued.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -48,6 +47,6 @@ const About = () => {
       </div>
     </div>
   );
-};
+}
 
-export default SectionWrapper(About, 'about');
+export default About;

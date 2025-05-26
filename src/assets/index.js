@@ -14,7 +14,7 @@ import alex from './personal/alex.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
-import frontend from './icons/frontend.png';
+import frontend from './tech/frontend.png';
 import prototyping from './icons/prototyping.png';
 import github from './icons/github.png';
 import close from './icons/close.png';
@@ -56,6 +56,8 @@ import android_studio from './tech/android_studio.png';
 import colab from './tech/colab.png';
 import jira from './tech/jira.png';
 import python from './tech/python.png';
+import software_dev from './tech/software_dev.png';
+import fullstack from './tech/fullstack.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -65,6 +67,7 @@ import uvt from './company/uvt.png';
 import erasmus from './company/erasmus.png';
 import twente from './company/twente.png';
 import victory_square from './company/victorysquare.png';
+import ing from './company/ing.png';
 
 
 import leaderboard from './projects/leaderboard.png';
@@ -79,8 +82,11 @@ import datascience from './projects/datascience.png';
 import table from './projects/tables.png';
 import star from './projects/star_schema.png';
 
+
 export {
     analysis,
+    fullstack,
+    software_dev,
     azul2,
     android,
     bwmap,
@@ -94,7 +100,6 @@ export {
     nairobi,
     whiteabstract,
     vrades,
-
     worldmap,
     mobileVideo,
     logo,
@@ -115,6 +120,7 @@ export {
     pineappleHover,
     eia,
     menu,
+    ing,
     management,
     visualization,
     preparation,
