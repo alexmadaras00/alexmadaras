@@ -1,6 +1,6 @@
 import {SectionWrapper} from "../hoc/index.js";
 import React from 'react';
-import {logotext} from "../../public/assets/index.js";
+import {logotext} from "../assets/index.js";
 
 const BusinessIntelligence = () => {
     return (<div>
