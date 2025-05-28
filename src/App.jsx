@@ -10,7 +10,6 @@ import {
     Tech,
     Projects,
 } from './index.js';
-import BusinessIntelligence from "./components/BusinessIntelligence.jsx";
 
 const App = () => {
     return (
