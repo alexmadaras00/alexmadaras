@@ -1,6 +1,8 @@
 import {
     ux,
     prototyping,
+    software_dev,
+    fullstack,
     nodejs,
     kotlin,
     adobexd,
@@ -13,6 +15,7 @@ import {
     java,
     git,
     figma,
+    ing,
     postgresql,
     graphql,
     leaderboard,
@@ -51,28 +54,15 @@ const services = [
         title: 'Android Developer',
         icon: android
     },
-    {title: 'Game Developer',
-        icon: gameDev
+    {
+        title: 'Software Developer',
+        icon: software_dev,
     },
     {
-        title:'UI/UX Design',
-        icon: ux,
-    },
-    {
-        title: 'Software Prototyping',
-        icon: prototyping,
-    },
-    {
-        title: 'Data Analysis',
-        icon: analysis
-    },
-    {
-        title: 'Data Preparation',
-        icon: preparation
-    },
-    {
-        title: 'Data Visualization',
-        icon: visualization
+        title: "Full Stack Developer",
+        icon: fullstack,
+        description: "Developing scalable web applications with React, Node.js, and databases.",
+        skills: ["React", "Node.js", "Express", "MongoDB", "SQL", "REST APIs"]
     },
     {
         title:'Software Management',
@@ -82,12 +72,12 @@ const services = [
 
 const technologies = [
     {
-        name: 'Kotlin',
-        icon: kotlin,
+        name: 'Java',
+        icon: java,
     },
     {
-      name:'Android Studio',
-      icon: android_studio,
+        name: 'Kotlin',
+        icon: kotlin,
     },
     {
         name: 'Firebase',
@@ -97,10 +87,7 @@ const technologies = [
         name: 'MySQL',
         icon: sql,
     },
-    {
-        name: 'Java',
-        icon: java,
-    },
+
     {
         name:'Jira',
         icon: jira,
@@ -122,37 +109,33 @@ const technologies = [
         icon: python,
     },
     {
-        name: 'Google Colab',
-        icon: colab,
-    },
-    {
-        name: 'graphql',
-        icon: graphql,
-    },
-    {
         name: 'PostgreSQL',
         icon: postgresql,
-    },
-    {
-        name: 'Figma',
-        icon: figma,
-    },
+    }
 ];
-
 const experiences = [
     {
-        title: 'Master Software Technology',
-        company_name: 'University of Twente',
-        icon: twente    ,
+        title: 'AI Engineer Intern',
+        company_name: 'ING Nederland',
+        icon: ing,
         iconBg: '#333333',
-        date: 'Sep 2022 - Present',
+        date: 'Apr 2024 - Nov 2024',
     },
     {
-        title: 'Mobile Developer Intern',
+        title: 'Android Developer Intern',
         company_name: 'Victory Square Partners',
         icon: victory_square,
         iconBg: '#333333',
         date: 'Aug 2021 - Sep 2021',
+    },
+]
+const academic = [
+    {
+        title: 'Master Software Technology',
+        company_name: 'University of Twente',
+        icon: twente,
+        iconBg: '#333333',
+        date: 'Sep 2022 - March 2025',
     },
     {
         title: 'Erasmus Exchange in Lisbon',
@@ -285,4 +268,4 @@ const projects = [
     },
 ];
 
-export {services, technologies, experiences, projects};
+export {services, technologies, academic, projects};

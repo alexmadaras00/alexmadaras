@@ -38,11 +38,11 @@ const Hero = () => {
                 <div>
                     <h1 className={`${styles.heroHeadText} text-#EADDFF font-poppins uppercase`}
                         style={{color: '#003739'}}>
-                        Hi, I'm{' '}
+                        Hi, I'm
                         <span
                             className="sm:text-battleGray sm:text-[90px] text-eerieBlack text-[50px] font-mova font-extrabold uppercase"
                             style={{color: '#ffffff'}}>
-                Alex
+                <br></br> Alex
               </span>
                     </h1>
                     <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>Innovation and Quality collide.</p>
